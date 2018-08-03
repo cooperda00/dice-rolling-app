@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  border: 0;
+  background: #FFC778;
+  font-family: 'Chela One', cursive;
+}
+
+header {
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  height: 13%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFAA00;
+  border-bottom: solid black 1px;
+}
+
+header p {
+  font-size: 2rem;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-left: 1%;
+  width: 30%;
+}
+
+h2 {
+  margin-top: 9%;
+  padding-left: 1%;
+  font-size: 2rem;
+}
+
+main p {
+  padding-left: 1%;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding-bottom: 10px;
+  margin-top: 0px;
+}
+
+i {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 2rem;
+}
+
+div p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+li {
+  display: flex;
+}
